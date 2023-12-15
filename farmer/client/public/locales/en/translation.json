@@ -1,8 +1,7 @@
 {
     "language": "en",
     "welcome": {
-        "part1": "Welcome to",
-        "part2": "Agrinet"
+        "part1": "Agrinet"
     },
     "description":{
         "title": "About Website",

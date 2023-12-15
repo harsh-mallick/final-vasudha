@@ -9,9 +9,9 @@ import Tejas from '../Images/Tejas.jpg'
 const OurTeam = () => {
   return (
     <div>
-      <div class="cardpanel-team">
-        <div class="container-team">
-          <div class="card-team">
+      <div className="cardpanel-team">
+        <div className="container-team">
+          <div className="card-team">
             <img src={Harsh} alt="Harsh Mallick" className='img-team' style={{ height: "260px" }} />
             <h2 className="h2-team">Harsh Mallick</h2>
             <p className='p-team'>
@@ -20,7 +20,7 @@ const OurTeam = () => {
               ensuring that it runs smoothly. He also gave the idea for the project.
             </p>
           </div>
-          <div class="card-team">
+          <div className="card-team">
             <img src={Krisha1} alt="Piyush Raj" className='img-team' style={{ height: "260px" }} />
             <h2 className="h2-team">Piyush Raj</h2>
             <p className='p-team'>
@@ -29,7 +29,7 @@ const OurTeam = () => {
               looks great.
             </p>
           </div>
-          <div class="card-team">
+          <div className="card-team">
             <img src={Krisha} alt="Krisha Rastogi" className='img-team' style={{ height: "240px" }} />
             <h2 className="h2-team">Krisha Rastogi</h2>
             <p className='p-team'>
@@ -38,7 +38,7 @@ const OurTeam = () => {
               the project.
             </p>
           </div>
-          <div class="card-team">
+          <div className="card-team">
             <img src={Tejas} alt="Tejas Garg" className='img-team' style={{ height: "285px" }} />
             <h2 className="h2-team">Tejas Garg</h2>
             <p className='p-team'>

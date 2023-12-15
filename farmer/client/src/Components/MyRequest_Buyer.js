@@ -54,10 +54,10 @@ const Notificationfarmer = () => {
         Array.isArray(buyerData) && buyerData.map(buyerdatas => {
             return (
               <div className="card-buyer" key={buyerdatas._id}>
-                <div class="card-img-buyer">
+                <div className="card-img-buyer">
                   <img src={Buyerimg} alt="Buyer Img" className='img-buyer' />
                 </div>
-                <div class="card-content-buyer">
+                <div className="card-content-buyer">
                   <h2 className='h2-buyer'>Buyer</h2>
                   <p className='p-buyer'>
                     Request Id:&nbsp; {buyerdatas._id}<br/>

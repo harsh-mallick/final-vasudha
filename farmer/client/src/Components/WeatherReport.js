@@ -90,8 +90,8 @@ const WeatherDetails = () => {
         return (
             <div className="weather-section">
                 <div className="wapper">
-                    <div className="Details"><div class="topbar">
-                        <div class="headerTopic"><h2>Check Weather Details</h2></div>
+                    <div className="Details"><div className="topbar">
+                        <div className="headerTopic"><h2>Check Weather Details</h2></div>
                     </div>
                         <div className="Details-box">
                             <div className="Left-box">
@@ -147,8 +147,8 @@ const WeatherDetails = () => {
         return (
             <div className="weather-section">
                 <div className="wapper">
-                    <div className="Details"><div class="topbar">
-                        <div class="headerTopic"><h2>Check Weather Details</h2></div>
+                    <div className="Details"><div className="topbar">
+                        <div className="headerTopic"><h2>Check Weather Details</h2></div>
                     </div>
                         <div className="Details-box">
                             <div className="Left-box">

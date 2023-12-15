@@ -4,20 +4,20 @@ import '../Css/Home.css'
 const Intro = () => {
     return (
         <div>
-            <div class="main" style={{ height: "681px", overflow: "hidden" }}>
-                <div class="bg">
-                    <div class="HomeText">
-                        <h2 class="Agrinet">AGRINET</h2>
-                        <p class="Topic-Slogan">Digitalize you farm… <br /> Harvest Success !!</p>
-                        <div class="wrapper">
-                            <a href="#cardpanel"><div class="btn">
+            <div className="main" style={{ height: "681px", overflow: "hidden" }}>
+                <div className="bg">
+                    <div className="HomeText">
+                        <h2 className="Agrinet">AGRINET</h2>
+                        <p className="Topic-Slogan">Digitalize you farm… <br /> Harvest Success !!</p>
+                        <div className="wrapper">
+                            <a href="#cardpanel"><div className="btn">
                                 <p>Get Started</p>
-                                <span class="BorderTopBottom"></span>
-                                <span class="BorderLeftRight"></span>
+                                <span className="BorderTopBottom"></span>
+                                <span className="BorderLeftRight"></span>
                             </div></a>
                         </div>
                     </div>
-                    <svg class="image-logo" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0.00 0.00 802.00 680.00">
+                    <svg className="image-logo" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0.00 0.00 802.00 680.00">
                         <g stroke-width="2.00" fill="none" stroke-linecap="butt">
                             <path stroke="#8bee2d" vector-effect="non-scaling-stroke" d="
       M 408.08 10.41

@@ -69,7 +69,7 @@ const GreenButtonWithPopover = (props) => {
         <input type="text" name="email_farmer" id="email_farmer" value={user.email_farmer} onChange={handleInput} /><br />
         Enter Buying Price:
         <input type="text" name="bprice" id="bprice" value={user.bprice} onChange={handleInput} /><br></br><br></br>
-        <button type="button" class="btn btn-primary" onClick={postData}>Send Request</button>
+        <button type="button" className="btn btn-primary" onClick={postData}>Send Request</button>
       </Popover.Body>
     </Popover>
   );

@@ -80,13 +80,13 @@ const Navbar = () => {
                     <Link to="/requests" className="a">My Requests</Link>
                     <Link to="/services" className="a">Other Services</Link>
                     <Link to="/logout" className="a">Logout</Link>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div className="dropdown">
+                        <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             🌐
                         </button>
-                        <ul class="dropdown-menu">
+                        <ul className="dropdown-menu">
                             {languages.map(({ code, name, country_code }) => (
-                                <li key={country_code}><button class="dropdown-item" onClick={() => { i18next.changeLanguage(code) }}>{name}</button></li>
+                                <li key={country_code}><button className="dropdown-item" onClick={() => { i18next.changeLanguage(code) }}>{name}</button></li>
                             ))}
                         </ul>
                     </div>
@@ -99,13 +99,13 @@ const Navbar = () => {
                     <Link to="/login" className="a">{t("Sign In")}</Link>
                     <Link to="/signup" className="a">{t("Sign Up")}</Link>
                     <Link to="/team" className="a">{t("Our Team Members")}</Link>
-                    <div class="dropdown" style={{ "width": "50px", "alignSelf": "center" }}>
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div className="dropdown" style={{ "width": "50px", "alignSelf": "center" }}>
+                        <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             🌐
                         </button>
-                        <ul class="dropdown-menu">
+                        <ul className="dropdown-menu">
                             {languages.map(({ code, name, country_code }) => (
-                                <li key={country_code}><button class="dropdown-item" onClick={() => { i18next.changeLanguage(code) }}>{name}</button></li>
+                                <li key={country_code}><button className="dropdown-item" onClick={() => { i18next.changeLanguage(code) }}>{name}</button></li>
                             ))}
                         </ul>
                     </div>
@@ -118,13 +118,13 @@ const Navbar = () => {
                     <Link to="/login" className="a">Sign In</Link>
                     <Link to="/signup" className="a">Sign Up</Link>
                     <Link to="/team" className="a">Our Team Members</Link>
-                    <div class="dropdown" style={{ "width": "50px" }}>
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div className="dropdown" style={{ "width": "50px" }}>
+                        <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             🌐
                         </button>
-                        <ul class="dropdown-menu">
+                        <ul className="dropdown-menu">
                             {languages.map(({ code, name, country_code }) => (
-                                <li key={country_code}><button class="dropdown-item" onClick={() => { i18next.changeLanguage(code) }}>{name}</button></li>
+                                <li key={country_code}><button className="dropdown-item" onClick={() => { i18next.changeLanguage(code) }}>{name}</button></li>
                             ))}
                         </ul>
                     </div>
@@ -134,10 +134,10 @@ const Navbar = () => {
     }
     return (
         <div style={{ zIndex: "10", width: "100%" }}>
-            <header class="header">
+            <header className="header">
                 <div className="left">
-                    <img class="img" src={Logo} alt="Logo" />
-                    <h2 class="h2">AGRINET</h2>
+                    <img className="img" src={Logo} alt="Logo" />
+                    <h2 className="h2">AGRINET</h2>
                 </div>
                 <RenderMenu />
             </header>

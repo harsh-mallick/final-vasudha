@@ -43,7 +43,7 @@ const Transporter = () => {
   for (var i = 0; i < 4; i++)
     sliced[i] = transporterData[i];
   console.log(sliced);
-  
+
   const buttonName = "Send Transporting Request"
 
   return (
@@ -51,18 +51,18 @@ const Transporter = () => {
       {
         Array.isArray(transporterData) && transporterData.map(transporterdatas => {
           return (
-            <div className="card-buyer" key = {transporterdatas._id}>
-              <div class="card-img-buyer">
+            <div className="card-buyer" key={transporterdatas._id}>
+              <div className="card-img-buyer">
                 <img src={Buyerimg} alt="Buyer Img" className='img-buyer' />
               </div>
-              <div class="card-content-buyer">
+              <div className="card-content-buyer">
                 <h2 className='h2-buyer'>Transporter</h2>
                 <p className='p-buyer'>
-                  Name:&nbsp; {transporterdatas.name_farmer}<br/>
-                  Mobile Number:&nbsp; {transporterdatas.phonenumber}<br/>
-                  Email:&nbsp; {transporterdatas.email}<br/>
+                  Name:&nbsp; {transporterdatas.name_farmer}<br />
+                  Mobile Number:&nbsp; {transporterdatas.phonenumber}<br />
+                  Email:&nbsp; {transporterdatas.email}<br />
                 </p>
-                <GreenButtonWithPopover buttonName = {buttonName}/>
+                <GreenButtonWithPopover buttonName={buttonName} />
               </div>
             </div>
           )

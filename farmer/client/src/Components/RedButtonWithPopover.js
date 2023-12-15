@@ -66,7 +66,7 @@ const RedButtonWithPopover = (props) => {
       <Popover.Body>
         Enter Request Id from above:
         <input type="text" name="Request_Id" id="Request_Id" value={user.Request_Id} onChange={handleInput} /><br /><br />
-        <button type="button" class="btn btn-danger" onClick={postData}>Decline Request</button>
+        <button type="button" className="btn btn-danger" onClick={postData}>Decline Request</button>
       </Popover.Body>
     </Popover>
   );
